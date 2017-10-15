@@ -10,7 +10,7 @@ public class MyTest {
 		DefaultContext<String, Object> context = new DefaultContext<String, Object>();
 		context.put("a",1);
         context.put("b",2);
-        context.put("c",3);
+        context.put("c",4);
         String express = "a+b*c";
         try {
 			Object r = runner.execute(express, context, null, true, false);
